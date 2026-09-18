@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "releases": {
+    "si-r1": {
+      "anchor": "unique-root-commit",
+      "description": "Imported DG-r5 method; new namespace, portable runtime and safe port startup.",
+      "files": {
+        ".mcp.json": "bc3e9dc51179ba34b76f680034165234a72f12c90dae07f37cdaeb6bc7fec0b5",
+        "CLAUDE.md": "7066457ae7070d5e72f4e144ec23d5801efb713bdc8b54290875ae3c2b8f2fc9",
+        "config/codex-jkwl.toml": "43582d55efe71ac206c3ac09a7e1f590639c662a78891325765fbc64f58b502b",
+        "config/tasks.json": "45bf4f1be50e6ecddeae1a3fb4fed975c110bd9ca0c06aa98ac0334bb15e0622",
+        "docs/COARSE_FINE_GUIDE.md": "f4e5d4bc174824f851e2d3467bff117ab6fc4455a799f7854df04ea2309e9189",
+        "docs/DIRECT_GEOMETRY_GUIDE.md": "de54d42481cfe1380db52f38779530507414877727397ac00466e94f99c69239",
+        "docs/FAST_GEOMETRY_GUIDE.md": "366791af2a94586437fcef622ed4f94d9edf41dcf5791dabf221dbab8cbe1242",
+        "docs/GEOMETRY_GUIDE.md": "92c38ed8b3bdfa8887ac67838290ae5ac08973b8cda81e5588c1e1b68bc57cfd",
+        "prompts/astra_coarse_fine_grasp.md": "9ed2035a72ab5d051187fb6c8b0498e0e8eb8e909255e81dd018c454cf97879c",
+        "prompts/astra_direct_geometry_grasp.md": "cbca7f28b4b828c04dbf2c4a0c99e4adcfbfd6b7509c9557aa60cb4ac1f0525d",
+        "prompts/bowl_plate.md": "5f0fca4bb6ac77b9505dba234dfc62392dc566c5e948435edcb7aa59f9ca07e8",
+        "prompts/bowl_plate_min.md": "f51b681e7803e6c01ee20b7fdd9a21817a72dcee3d202de44f3f9e3514b5327b",
+        "prompts/dg_feedback_grasp.md": "b93699f7646306c3166df51ae9c8a779d51f68b2ba06c28cc0438fcb6a060635",
+        "prompts/lg4_bowl_cabinet_min.md": "343cac4a24585081ef9977b77ab84255df4c86b836e26799198ecf0b93d3254f",
+        "prompts/open_drawer.md": "20cb1e2da6595f17732e559320d081ded9801f84f698583f7339c22c7095ba6a",
+        "prompts/open_drawer_min.md": "864d5bc6a8feb23aacc3b543f55335a2a25b0b45affaabc6136d9840406d2971",
+        "prompts/rainbow_min.md": "5c4cb2e589419067e85d02073c251037635e7217803cdeb861203fd393a283cb",
+        "prompts/t_block_min.md": "7282f9edd976943cbab211f8a1fb8e03c2b13a95400ca5297595fe5fcbde0f20",
+        "prompts/turn_stove.md": "844f5d8ad3f338526e3e4eb4529d4bec522fc19fb378c2bc725a41cb709cd86d",
+        "prompts/turn_stove_min.md": "877815bc6719e96be366cb7e26ed5c08db3c755cd760ab8d49ab57997ab5b86f",
+        "pyproject.toml": "c19e3ffc06cd227b7285caa1b6e9158c005223aac567ed68d95e706992f1d048",
+        "scripts/bootstrap.sh": "f5e8032e862358527c8fdc8519030d2c6d40a548a38dbaee3e3d48f59eb76244",
+        "scripts/configure_libero.py": "75d4a05f21a84430bb28688b760b8e7213a67e1a7c57996c82c46894ae0fc575",
+        "scripts/headless_bootstrap.sh": "b08a76417627b984bdc74d969e8252f5c4441f04a40c171e63863135e1898d6e",
+        "scripts/headless_env.sh": "ba44f59ea8f57e1553836aa33362b1869e155e32b29fe161113f61ea9e59e9e3",
+        "scripts/methods.py": "518c936028786fb9065bccfd1e3be198bbc235491d516a542b50a17b555909ae",
+        "scripts/setup_codex.py": "a942571a1ec552ecf25aea46f9d835c56bfe6254afb1160a76b92b28ac0b918b",
+        "scripts/smoke_mcp.py": "1e066f368c8b007dc8ba204726471502cbdf464b650c20d0ae37cd0813864c83",
+        "set_env.sh": "447f6a453faefb059ddfdc6a2da668b99a791a631b858c12eb16594d724cc481",
+        "spatial_interface/UI/franka.obj": "c0ed36b6525ab3c9c2147680b7822bd972db41eb26a110ef43b17c1bb0cdbce2",
+        "spatial_interface/UI/franka_closed.obj": "a92c063cda889eea8cd08a273afc3838dc8646c4d530ea0e6fd23e63b09c2ff4",
+        "spatial_interface/UI/robotiq.obj": "eb5d74d3ee38d50d8489c3eeb08c0bab946cf6ec44c961953aa02621c2ef6ba8",
+        "spatial_interface/UI/robotiq_closed.obj": "799fc0a6e883035fa078ff15ff988e037369168f9ebd8fc2af07baa5a7b0126c",
+        "spatial_interface/UI/template_index.html": "5492be2dd49c0150bac86a640c43c7391dc51f4e8d62a429f11fe3cba0288f8f",
+        "spatial_interface/__init__.py": "70513bc66c40107b6dc7e84842e37805799721ce78da56300b568c70c877782c",
+        "spatial_interface/agent_common.py": "dd0ba6135eaff1949bd53e27db576f519246022e456685460bb57d7068093290",
+        "spatial_interface/build_video_index.py": "430fb72558e023ff26f3089fe8a9c6c22636ca57aebd22be1fe6acd21032bfd3",
+        "spatial_interface/claude_harness.py": "8b096834cecfaf075d669454ed54f0cf18ffe86f16c879855f959302f03f75c1",
+        "spatial_interface/coarse_fine_policy.py": "40ffedb7f9eba479de094d020399f7985e24cdb8566c230f8d9ed080c277fa8f",
+        "spatial_interface/coarse_fine_tools.py": "7ffefb164b3c914ce732d2d451478bde1d6ba3607474be9e71b5034da8f9ed33",
+        "spatial_interface/codex_harness.py": "e5eb621cbe547a39df222133542f70bd25c36d80e8faccee6ea8a191fe5915f6",
+        "spatial_interface/dg_feedback.py": "2697261cf7a193dfd4b54a1d89da21dc8e96b0a2f02b412ca3ae2c29369d5ca8",
+        "spatial_interface/dg_receipt.py": "7a7d025341d563b0544d23a5a1f7c32e1eb487af3128035f291af607f84293d9",
+        "spatial_interface/direct_control.py": "c691e211b3bb0f8f5a6f20d73ae8c31d376d5c5649c3554f4283565248c67664",
+        "spatial_interface/direct_geometry_tools.py": "a68ef405543cf952f743adb061c60514aa8b799297972b8d01eb0e13d3272591",
+        "spatial_interface/episode_recorder.py": "9b1311bcdd01a34b9cc56d934aadfcb5db16946084516ac406bb9e779e4ab40e",
+        "spatial_interface/experiment.py": "e233910db0b0627e8db329e15000f24423ce3a8b3ebdffead98a3955bccb9394",
+        "spatial_interface/fast_geometry.py": "b69f9dadf281b9d2766b606390ad952e67706e7c576ccb09f8a59236fb3c1b37",
+        "spatial_interface/fast_geometry_tools.py": "8df924e40c7c8beb743dbceac0fcfa3926420c07835259fe4e55818ddec11330",
+        "spatial_interface/geometry_ref.py": "abb108e2b06b2447cdadfda9d304dd4755cdd3c8fa9f6af429621c531a6f10ab",
+        "spatial_interface/geometry_workspace.py": "9f5055a3dad9a79441988ec25d0c4ca6fcbdf2c9642f3238a4e8f12260033c6d",
+        "spatial_interface/harness.py": "c5cfbdcef75778323b842d2a5116ec228ba818595cba8063d428325a3ebd85cc",
+        "spatial_interface/identity.py": "f370e8ddd7a0f264dd9baf4ea5bbb21b86fd1bfdfcc806869a65e06167a1e210",
+        "spatial_interface/mcp_server.py": "c36857e71c9a28a40e195efacc5c045a523375f5c4eda718e420257783276f14",
+        "spatial_interface/ports.py": "8e6961e6e995982263adc20af64c5fcf9f2e5f0994d967415753afca31a7e9bf",
+        "spatial_interface/qwen_agent.py": "99b07e9b57da39de4e214ba476cc92bc9ce534ff543db7f70f17d807300b67af",
+        "spatial_interface/qwen_harness.py": "5d084f27b497a0b67f60ab41ac8f104f15af384c6c2dbedf0e8fa59fcde4a5e3",
+        "spatial_interface/rainbow_env.py": "428d05aefe37db9ee926db0443075912fe4c782cc8027ed33319c99e63fd3cf9",
+        "spatial_interface/record_sim.py": "3927b2a09ad6c022bb0f4bd1ca9336587ccbc4f93a2737e3522c14be55eb70be",
+        "spatial_interface/robot_utils.py": "6a18341acb3c919a8fcf3da1821d8aa861ca9c6dabe4cc92ab12fc8c50636f5d",
+        "spatial_interface/run_eval.py": "c0995d0b5f9aaafc81a2ad71760115a986fa74fe07bf922ad8f0946eef71f6c1",
+        "spatial_interface/serve.py": "83451f4a1a074e13aa276553a3503e85f1d08a025abb4be3ed0c1eaafe35521e",
+        "spatial_interface/sim_env.py": "945177047ba2a80c3800b4975f8a03816d5b629e6152835f4c0752012baac481",
+        "spatial_interface/t_block_env.py": "9c4f0fbb8ece4c35d4da44f954f33486cbe0b803052c2dab74dea95e108d75ef",
+        "spatial_interface/target_edit.py": "8c23d2dacff83e1093c4c57220a858f940bd95083772f388f881bc4acc81077c",
+        "spatial_interface/utils.py": "e504b93539ba83e4860e70fc6ac2669726155925820f7efaa96f84379e54ae1f",
+        "uv.lock": "3194c00ae4103a8803936380d3a8dc772a07a71f7d150b550e02c95723a86b65"
+      },
+      "dependencies": {
+        "third_party/LIBERO": "8f1084e3132a39270c3a13ebe37270a43ece2a01"
+      }
+    }
+  },
+  "client_profiles": {
+    "si-codex-r1": {
+      "files": {
+        "spatial_interface/codex_harness.py": "e5eb621cbe547a39df222133542f70bd25c36d80e8faccee6ea8a191fe5915f6",
+        "spatial_interface/harness.py": "c5cfbdcef75778323b842d2a5116ec228ba818595cba8063d428325a3ebd85cc",
+        "spatial_interface/agent_common.py": "dd0ba6135eaff1949bd53e27db576f519246022e456685460bb57d7068093290"
+      }
+    },
+    "si-qwen-r1": {
+      "files": {
+        "spatial_interface/qwen_agent.py": "99b07e9b57da39de4e214ba476cc92bc9ce534ff543db7f70f17d807300b67af",
+        "spatial_interface/qwen_harness.py": "5d084f27b497a0b67f60ab41ac8f104f15af384c6c2dbedf0e8fa59fcde4a5e3",
+        "spatial_interface/codex_harness.py": "e5eb621cbe547a39df222133542f70bd25c36d80e8faccee6ea8a191fe5915f6",
+        "spatial_interface/harness.py": "c5cfbdcef75778323b842d2a5116ec228ba818595cba8063d428325a3ebd85cc",
+        "spatial_interface/agent_common.py": "dd0ba6135eaff1949bd53e27db576f519246022e456685460bb57d7068093290"
+      }
+    }
+  }
+}

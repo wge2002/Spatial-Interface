@@ -1,0 +1,76 @@
+[
+  {
+    "key": "libero_goal/8",
+    "lang_key": "lg8",
+    "prompt": "prompts/bowl_plate_min.md",
+    "language": "Put the bowl on the plate.",
+    "sim_step_budget": 2000,
+    "suite": "libero_goal",
+    "index": 8,
+    "name": "put_the_bowl_on_the_plate",
+    "detector": true
+  },
+  {
+    "key": "t_block",
+    "lang_key": "t_block",
+    "prompt": "prompts/t_block_min.md",
+    "language": "Build a structure exactly two blocks tall: the blue block on the bottom, and both green blocks resting directly on top of it, side by side at the same height. Neither green block may sit on the other or on the table.",
+    "sim_step_budget": 5000,
+    "suite": null,
+    "env_name": "TBlock",
+    "detector": true
+  },
+  {
+    "key": "rainbow",
+    "lang_key": "rainbow",
+    "prompt": "prompts/rainbow_min.md",
+    "language": "Rearrange the blocks so that it forms a rainbow. Be creative.",
+    "sim_step_budget": 5000,
+    "suite": null,
+    "env_name": "RainbowScatter",
+    "detector": false
+  },
+  {
+    "key": "libero_goal/4",
+    "lang_key": null,
+    "prompt": "prompts/lg4_bowl_cabinet_min.md",
+    "language": "Put the bowl on top of the cabinet.",
+    "sim_step_budget": 2000,
+    "suite": "libero_goal",
+    "index": 4,
+    "name": "put_the_bowl_on_top_of_the_cabinet",
+    "detector": true
+  },
+  {
+    "key": "stack",
+    "lang_key": "stack",
+    "prompt": null,
+    "language": "Pick up the red cube and place it onto the green cube.",
+    "sim_step_budget": 1000,
+    "suite": null,
+    "env_name": "Stack",
+    "detector": true
+  },
+  {
+    "key": "libero_goal/0",
+    "lang_key": "lg0",
+    "prompt": "prompts/open_drawer_min.md",
+    "language": "Open the middle (2nd from the top) drawer of the cabinet.",
+    "sim_step_budget": 2000,
+    "suite": "libero_goal",
+    "index": 0,
+    "name": "open_the_middle_drawer_of_the_cabinet",
+    "detector": true
+  },
+  {
+    "key": "libero_goal/7",
+    "lang_key": "lg7",
+    "prompt": "prompts/turn_stove_min.md",
+    "language": "Turn on the stove.",
+    "sim_step_budget": 2000,
+    "suite": "libero_goal",
+    "index": 7,
+    "name": "turn_on_the_stove",
+    "detector": true
+  }
+]

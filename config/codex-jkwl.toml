@@ -1,0 +1,15 @@
+# Spatial Interface defaults. Credentials are supplied only through the environment.
+model = "gpt-6-astra"
+model_provider = "jkwl"
+model_reasoning_effort = "medium"
+web_search = "disabled"
+
+[model_providers.jkwl]
+name = "JKWL"
+base_url = "https://jkwl.dmxapi.cn/v1"
+wire_api = "responses"
+env_key = "SPATIAL_JKWL_API_KEY"
+request_max_retries = 0
+stream_max_retries = 0
+stream_idle_timeout_ms = 180000
+supports_websockets = false
